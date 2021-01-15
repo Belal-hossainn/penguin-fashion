@@ -1,0 +1,134 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.banner-image{
+    width: 80%;
+    margin-left: 20px;
+}
+.title-card{
+    background-color: transparent;
+    border: 0;
+}
+.headline{
+    margin: 10px;
+}
+.headline-text{
+    font-size: 50px;
+    font-weight:bolder;
+    padding-bottom: 10px;
+    
+}
+.headline p{
+    font-size:16px;
+    font-weight: lighter;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color:#3E3E3E;
+}
+.price-tag{
+    color: #FA804C;
+    font-size: 36px;
+    font-weight: bold;
+}
+.colorful{
+    background-color:#FFF9F4; 
+    margin-bottom: 20px;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat( 200px, 400px);
+    grid-template-rows: repeat(3, 130px);
+    grid-gap: 10px;
+    margin-top: 20px;
+
+}
+.offers{
+    border-radius: 10px;
+
+    background-color:white;
+
+}
+
+
+.penguin-footer{
+    background-color: white;
+    border: none;
+    padding: 20px;
+}
+.card-design{
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+}
+.shoes-image-layout{
+    background-color: #f1f1f1;
+    width:334px ;    
+    height: 325px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+
+    .offers-4{
+        grid-column: 2 / 3;
+        grid-row: 1 /span 3;
+       
+    }
+    .offers img{
+        width: 70px;
+        margin: 20px;
+        
+    }
+    .offers{
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding-right: 50px;
+    }
+    @media (max-width: 668px){
+        .info{
+            display: grid;
+    grid-template-columns: repeat( 200px, 400px);
+    grid-template-rows: repeat(3, 130px);
+    grid-gap: 10px;
+    margin-top: 20px;
+        }
+        .offers-4{
+            grid-column: auto;
+            grid-column: auto;
+            margin-right: 1.5em;
+            
+           
+        }
+        .offers{
+            display:block;
+            text-align: center;
+            margin:1em;}
+            
+       
+    }
+    @media (max-width: 668px){
+
+        .banner{
+            display: flex;
+            float: right;
+            flex-wrap:wrap-reverse;
+            
+      }
+      .shoe-title{
+          padding-top: 10px;
+          text-align: center;
+      }
+      .CasualShoes{
+          margin-top: 20px;
+      }
+      .shoes-image-layout{
+         margin-left: 60px;
+      }
+    }
+      
+      
+      
